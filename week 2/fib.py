@@ -26,3 +26,14 @@ else:
        n1 = n2
        n2 = nth
        count += 1
+
+
+# vincent fib func
+def fib(n):
+  f1,f2 = 0,1
+  while n>0:
+    f2,f1,n = f1+f2,f2,n-1
+    print(f2,end=' , ')
+
+    
+
